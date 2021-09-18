@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Товары</title>
+  </head>
+  <body>
+    <div class="f_top"><div>Выберите подходящий тариф и заполните форму ниже</div></div>
+
+    <form class="formSend" action="http://localhost/send.php" method="post" id="formSend">
+      <div class="formList">
+        <div class="flItem">
+          <div class=""><input type="checkbox" name="" value=""></div>
+          <div><label for="" class="a"> Мастермайнд Наташи Бахман </label></div>
+          <label for="" class="b"> 4 дня работы, окружение с доходом от 100.000₽ </label>
+          <label for="" class="c">100 000 руб.</label>
+        </div>
+
+        <div class="flItem">
+          <div class=""><input type="checkbox" name="" value=""></div>
+          <div><label for="" class="a"> Мастермайнд Наташи Бахман </label></div>
+          <label for="" class="b"> 4 дня работы, окружение с доходом от 100.000₽ </label>
+          <label for="" class="c">100 000 руб.</label>
+        </div>
+
+        <div class="flItem">
+          <div class=""><input type="checkbox" name="" value=""></div>
+          <div><label for="" class="a"> Мастермайнд Наташи Бахман </label></div>
+          <label for="" class="b"> 4 дня работы, окружение с доходом от 100.000₽ </label>
+          <label for="" class="c">100 000 руб.</label>
+        </div>
+      </div>
+
+      <div class="inpRm">
+        <input type="text" name="mailForm" value="" placeholder="Введите ваш эл. адрес" class="fInput" form="formSend">
+        <input type="text" name="usernameForm" value="" placeholder="Введите ваше имя" class="fInput" form="formSend" required>
+        <input type="number" name="numberPhoneForm" value="" placeholder="Введите ваш телефон" class="fInput" form="formSend" required>
+        <div><button type="submit" name="button" class="fButton">Оплатить</button></div>
+      </div>
+    </form>
+  </body>
+</html>
